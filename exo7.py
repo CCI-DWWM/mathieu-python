@@ -15,4 +15,3 @@ if est_premier(nombre):
     print(f"{nombre} est un nombre premier.")
 else:
     print(f"{nombre} n'est pas un nombre premier.")
-    return nombre

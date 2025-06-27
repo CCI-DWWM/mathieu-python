@@ -9,9 +9,9 @@ def est_premier(n):
         if n % i == 0:
             return False
     return True
-
-nombre = int(input("Entrez un nombre : "))
-if est_premier(nombre):
-    print(f"{nombre} est un nombre premier.")
-else:
-    print(f"{nombre} n'est pas un nombre premier.")
+if __name__ == "__main__":
+    nombre = int(input("Entrez un nombre : "))
+    if est_premier(nombre):
+        print(f"{nombre} est un nombre premier.")
+    else:
+        print(f"{nombre} n'est pas un nombre premier.")
