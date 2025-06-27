@@ -11,4 +11,7 @@ venv\scripts\Activate.ps1
 #Installation des libraries
 pip install -r requirements.txt
 
+#installation colorama 
+pip install colorama
+
 ```
